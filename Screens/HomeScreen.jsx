@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   StyleSheet,
   SafeAreaView,
@@ -13,6 +13,27 @@ const recipeData = require("../assets/Json/Recipes.json");
 export default function HomeScreen() {
   const [searchInquiry, setSearchInquiry] = useState("");
   const [matchingRecipes, setMatchingRecipes] = useState([]);
+
+  useEffect(() => {
+    getRandomRecipes();
+  }, []);
+
+  const getRandomRecipes = () => {
+    const randomRecipes = [];
+    while (randomRecipes.length < 8) {
+      // Get 10 random recipes
+      const randomIndex = Math.floor(Math.random() * recipeData.recipes.length);
+      const randomRecipe = recipeData.recipes[randomIndex];
+      if (
+        !randomRecipes.some(
+          (recipe) => recipe.recipe_name === randomRecipe.recipe_name
+        )
+      ) {
+        randomRecipes.push(randomRecipe);
+      }
+    }
+    setMatchingRecipes(randomRecipes);
+  };
 
   const handleSearch = (text) => {
     setSearchInquiry(text);
