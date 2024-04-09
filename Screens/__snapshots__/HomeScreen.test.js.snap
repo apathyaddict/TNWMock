@@ -1,0 +1,636 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen /> renders correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-evenly",
+        "padding": 20,
+      }
+    }
+  >
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Search"
+      style={
+        {
+          "borderColor": "orange",
+          "borderRadius": 10,
+          "borderWidth": 3,
+          "flex": 1,
+          "height": 40,
+          "paddingHorizontal": 10,
+        }
+      }
+      value=""
+    />
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "orange",
+          "borderRadius": 10,
+          "height": 40,
+          "justifyContent": "center",
+          "marginLeft": 10,
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <Text>
+        Search
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "borderRadius": 10,
+        "flex": 1,
+        "flexDirection": "row",
+        "marginHorizontal": 20,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 16,
+          "marginTop": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      No matching recipes found
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`<HomeScreen /> renders search input and button 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-evenly",
+        "padding": 20,
+      }
+    }
+  >
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Search"
+      style={
+        {
+          "borderColor": "orange",
+          "borderRadius": 10,
+          "borderWidth": 3,
+          "flex": 1,
+          "height": 40,
+          "paddingHorizontal": 10,
+        }
+      }
+      value=""
+    />
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "orange",
+          "borderRadius": 10,
+          "height": 40,
+          "justifyContent": "center",
+          "marginLeft": 10,
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <Text>
+        Search
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "borderRadius": 10,
+        "flex": 1,
+        "flexDirection": "row",
+        "marginHorizontal": 20,
+        "padding": 10,
+      }
+    }
+  >
+    <RCTScrollView
+      data={
+        [
+          {
+            "id": 25,
+            "recipe_name": "Honey Glazed Salmon",
+            "servings": 4,
+          },
+          {
+            "id": 13,
+            "recipe_name": "Cinnamon Raisin Bread",
+            "servings": 12,
+          },
+          {
+            "id": 1,
+            "recipe_name": "Classic French Baguette",
+            "servings": 4,
+          },
+          {
+            "id": 5,
+            "recipe_name": "Sourdough Bread",
+            "servings": 10,
+          },
+          {
+            "id": 28,
+            "recipe_name": "Tiramisu",
+            "servings": 8,
+          },
+          {
+            "id": 18,
+            "recipe_name": "Vegetable Lasagna",
+            "servings": 8,
+          },
+          {
+            "id": 24,
+            "recipe_name": "Pesto Pasta",
+            "servings": 4,
+          },
+          {
+            "id": 10,
+            "recipe_name": "Pumpkin Bread",
+            "servings": 8,
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={0.0001}
+      stickyHeaderIndices={[]}
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "orange",
+                  "borderRadius": 10,
+                  "flex": 0.5,
+                  "height": 170,
+                  "justifyContent": "space-around",
+                  "margin": 5,
+                  "width": "48%",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "alignContent": "center",
+                    "color": "white",
+                    "fontSize": 20,
+                    "fontWeight": 800,
+                    "padding": 5,
+                  }
+                }
+              >
+                Honey Glazed Salmon
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "white",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Servings: 
+                4
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "orange",
+                  "borderRadius": 10,
+                  "flex": 0.5,
+                  "height": 170,
+                  "justifyContent": "space-around",
+                  "margin": 5,
+                  "width": "48%",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "alignContent": "center",
+                    "color": "white",
+                    "fontSize": 20,
+                    "fontWeight": 800,
+                    "padding": 5,
+                  }
+                }
+              >
+                Cinnamon Raisin Bread
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "white",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Servings: 
+                12
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "orange",
+                  "borderRadius": 10,
+                  "flex": 0.5,
+                  "height": 170,
+                  "justifyContent": "space-around",
+                  "margin": 5,
+                  "width": "48%",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "alignContent": "center",
+                    "color": "white",
+                    "fontSize": 20,
+                    "fontWeight": 800,
+                    "padding": 5,
+                  }
+                }
+              >
+                Classic French Baguette
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "white",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Servings: 
+                4
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "orange",
+                  "borderRadius": 10,
+                  "flex": 0.5,
+                  "height": 170,
+                  "justifyContent": "space-around",
+                  "margin": 5,
+                  "width": "48%",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "alignContent": "center",
+                    "color": "white",
+                    "fontSize": 20,
+                    "fontWeight": 800,
+                    "padding": 5,
+                  }
+                }
+              >
+                Sourdough Bread
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "white",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Servings: 
+                10
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "orange",
+                  "borderRadius": 10,
+                  "flex": 0.5,
+                  "height": 170,
+                  "justifyContent": "space-around",
+                  "margin": 5,
+                  "width": "48%",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "alignContent": "center",
+                    "color": "white",
+                    "fontSize": 20,
+                    "fontWeight": 800,
+                    "padding": 5,
+                  }
+                }
+              >
+                Tiramisu
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "white",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Servings: 
+                8
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "orange",
+                  "borderRadius": 10,
+                  "flex": 0.5,
+                  "height": 170,
+                  "justifyContent": "space-around",
+                  "margin": 5,
+                  "width": "48%",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "alignContent": "center",
+                    "color": "white",
+                    "fontSize": 20,
+                    "fontWeight": 800,
+                    "padding": 5,
+                  }
+                }
+              >
+                Vegetable Lasagna
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "white",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Servings: 
+                8
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "orange",
+                  "borderRadius": 10,
+                  "flex": 0.5,
+                  "height": 170,
+                  "justifyContent": "space-around",
+                  "margin": 5,
+                  "width": "48%",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "alignContent": "center",
+                    "color": "white",
+                    "fontSize": 20,
+                    "fontWeight": 800,
+                    "padding": 5,
+                  }
+                }
+              >
+                Pesto Pasta
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "white",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Servings: 
+                4
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "orange",
+                  "borderRadius": 10,
+                  "flex": 0.5,
+                  "height": 170,
+                  "justifyContent": "space-around",
+                  "margin": 5,
+                  "width": "48%",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "alignContent": "center",
+                    "color": "white",
+                    "fontSize": 20,
+                    "fontWeight": 800,
+                    "padding": 5,
+                  }
+                }
+              >
+                Pumpkin Bread
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "white",
+                    "fontSize": 14,
+                  }
+                }
+              >
+                Servings: 
+                8
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</RCTSafeAreaView>
+`;
