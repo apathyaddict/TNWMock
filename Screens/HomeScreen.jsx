@@ -31,8 +31,8 @@ export default function HomeScreen() {
 
   const renderItemRecipe = ({ item }) => (
     <View style={styles.recipeItem}>
-      <Text>{item.recipe_name}</Text>
-      <Text>Servings: {item.servings}</Text>
+      <Text style={styles.recipeName}>{item.recipe_name}</Text>
+      <Text style={styles.recipeServings}>Servings: {item.servings}</Text>
     </View>
   );
 
@@ -50,8 +50,17 @@ export default function HomeScreen() {
         </Pressable>
       </View>
 
-      <View>
-        <FlatList data={matchingRecipes} renderItem={renderItemRecipe} />
+      <View style={styles.resultsRecipe}>
+        {matchingRecipes.length === 0 ? (
+          <Text style={styles.noResultsText}>No matching recipes found</Text>
+        ) : (
+          <FlatList
+            keyExtractor={(item, index) => index.toString()}
+            data={matchingRecipes}
+            renderItem={renderItemRecipe}
+            numColumns={2}
+          />
+        )}
       </View>
     </SafeAreaView>
   );
@@ -85,8 +94,39 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginLeft: 10,
   },
-  buttonText: {
+  resultsRecipe: {
+    flex: 1,
+    marginHorizontal: 20,
+    borderRadius: 10,
+    // backgroundColor: "grey",
+    padding: 10,
+    flexDirection: "row",
+  },
+
+  recipeItem: {
+    flex: 0.5,
+    backgroundColor: "orange",
+    borderRadius: 10,
+    margin: 5,
+    width: "48%",
+    height: 170,
+    justifyContent: "space-around",
+    alignItems: "center",
+  },
+  recipeName: {
+    fontWeight: 800,
+    alignContent: "center",
+    fontSize: 20,
     color: "white",
-    fontWeight: "bold",
+    padding: 5,
+  },
+  recipeServings: {
+    fontSize: 14,
+    color: "white",
+  },
+  noResultsText: {
+    fontSize: 16,
+    textAlign: "center",
+    marginTop: 20,
   },
 });
