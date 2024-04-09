@@ -1,0 +1,154 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "recipe_name": "Classic French Baguette",
+            "servings": 4
+        },
+        {
+            "id": 2,
+            "recipe_name": "Garlic Naan Bread",
+            "servings": 6
+        },
+        {
+            "id": 3,
+            "recipe_name": "Homemade Whole Wheat Bread",
+            "servings": 8
+        },
+        {
+            "id": 4,
+            "recipe_name": "Irish Soda Bread",
+            "servings": 6
+        },
+        {
+            "id": 5,
+            "recipe_name": "Sourdough Bread",
+            "servings": 10
+        },
+        {
+            "id": 6,
+            "recipe_name": "Banana Bread",
+            "servings": 8
+        },
+        {
+            "id": 7,
+            "recipe_name": "Spaghetti Carbonara",
+            "servings": 4
+        },
+        {
+            "id": 8,
+            "recipe_name": "Chicken Tikka Masala",
+            "servings": 6
+        },
+        {
+            "id": 9,
+            "recipe_name": "Chocolate Chip Cookies",
+            "servings": 24
+        },
+        {
+            "id": 10,
+            "recipe_name": "Pumpkin Bread",
+            "servings": 8
+        },
+        {
+            "id": 11,
+            "recipe_name": "Zucchini Bread",
+            "servings": 10
+        },
+        {
+            "id": 12,
+            "recipe_name": "Focaccia Bread",
+            "servings": 8
+        },
+        {
+            "id": 13,
+            "recipe_name": "Cinnamon Raisin Bread",
+            "servings": 12
+        },
+        {
+            "id": 14,
+            "recipe_name": "French Toast",
+            "servings": 6
+        },
+        {
+            "id": 15,
+            "recipe_name": "Mushroom Risotto",
+            "servings": 4
+        },
+        {
+            "id": 16,
+            "recipe_name": "Spinach and Feta Stuffed Chicken Breast",
+            "servings": 4
+        },
+        {
+            "id": 17,
+            "recipe_name": "Beef Stir Fry",
+            "servings": 6
+        },
+        {
+            "id": 18,
+            "recipe_name": "Vegetable Lasagna",
+            "servings": 8
+        },
+        {
+            "id": 19,
+            "recipe_name": "Apple Pie",
+            "servings": 8
+        },
+        {
+            "id": 20,
+            "recipe_name": "Tomato Basil Soup",
+            "servings": 6
+        },
+        {
+            "id": 21,
+            "recipe_name": "Blueberry Muffins",
+            "servings": 12
+        },
+        {
+            "id": 22,
+            "recipe_name": "Eggplant Parmesan",
+            "servings": 6
+        },
+        {
+            "id": 23,
+            "recipe_name": "Quinoa Salad",
+            "servings": 6
+        },
+        {
+            "id": 24,
+            "recipe_name": "Pesto Pasta",
+            "servings": 4
+        },
+        {
+            "id": 25,
+            "recipe_name": "Honey Glazed Salmon",
+            "servings": 4
+        },
+        {
+            "id": 26,
+            "recipe_name": "Cauliflower Pizza Crust",
+            "servings": 4
+        },
+        {
+            "id": 27,
+            "recipe_name": "Ratatouille",
+            "servings": 6
+        },
+        {
+            "id": 28,
+            "recipe_name": "Tiramisu",
+            "servings": 8
+        },
+        {
+            "id": 29,
+            "recipe_name": "Peanut Butter Cookies",
+            "servings": 24
+        },
+        {
+            "id": 30,
+            "recipe_name": "Pulled Pork Sandwiches",
+            "servings": 6
+        }
+    ]
+}
